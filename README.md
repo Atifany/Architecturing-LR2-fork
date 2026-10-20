@@ -5,7 +5,7 @@
 Далее запустить собранную user-service программу (в корне проекта)<br>
 ```java -jar user-service/target/user-service-0.0.1-SNAPSHOT.jar```<br>
 Далее запустить собранную notification програму в другом окне терминала (в корне проекта)<br>
-```java -jar notification-service/target/notification-service-0.0.1-SNAPSHOT.jar```
+```java -jar notification-service/target/notification-service-0.0.1-SNAPSHOT.jar```<br>
 Создам несколько пользователей через swagger и посмотрю в логи<br>
 ![alt text](img/image-lr3.png)<br>
 Notification service получил все ивенты и отписался об этом в консоль.
