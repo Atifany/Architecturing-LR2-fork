@@ -15,6 +15,7 @@ services:
 
   keydb:
     image: "eqalpha/keydb:x86_64_v5.3.3"
+    platform: linux/amd64
     container_name: keydb-lab3
     command: "keydb-server /etc/keydb/redis.conf --server-threads 2"
     volumes:
