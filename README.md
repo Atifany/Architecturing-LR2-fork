@@ -2,9 +2,11 @@
 
 Для запуска user-service необходимо собрать весь проект через maven (в корне проекта)\n
 ```mvn clean install -DskipTests```\n
-Далее запустить собранную программу (в корне проекта)\n
+Далее запустить собранную user-service программу (в корне проекта)\n
 ```java -jar user-service/target/user-service-0.0.1-SNAPSHOT.jar```\n
-Создам пользователей через swagger и посмотрю в логи\n
+Далее запустить собранную notification програму в другом окне терминала (в корне проекта)\n
+```java -jar notification-service/target/notification-service-0.0.1-SNAPSHOT.jar```
+Создам несколько пользователей через swagger и посмотрю в логи\n
 ![alt text](img/image-lr3.png)\n
 Notification service получил все ивенты и отписался об этом в консоль.
 	
