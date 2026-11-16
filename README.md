@@ -12,10 +12,10 @@
 ```http://localhost:8080/swagger-ui/index.html```<br>
 Создам несколько пользователей через swagger и посмотрю в логи<br>
 ![alt text](img/image-lr3.png)<br>
-Notification service получил все ивенты и отписался об этом в консоль.
-
-
-
+Notification service получил все ивенты и отписался об этом в консоль.<br>
+<br>
+Ссылка на google docs курсовой работы:<br>
+```https://docs.google.com/document/d/1j5Mnj-b3jX11PnMI6E002BfRjocB8a4vVgZR741Lvy8/edit?usp=sharing```<br>
 
 
 
