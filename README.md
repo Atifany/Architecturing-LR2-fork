@@ -4,8 +4,12 @@
 ```mvn clean install -DskipTests```<br>
 В папке dockercompose запустить контейнеры базы данных и редиса:<br>
 ```docker compose up -d```<br>
-Далее запустить собранную программу (в корне проекта):<br>
+Далее запустить user-service (в корне проекта) в отдельном tty:<br>
 ```java -jar user-service/target/user-service-0.0.1-SNAPSHOT.jar```<br>
+Далее запустить notification-service (в корне проекта) в отдельном tty:<br>
+```java -jar notification-service/target/notification-service-0.0.1-SNAPSHOT.jar```<br>
+Адрес сваггера:<br>
+```http://localhost:8080/swagger-ui/index.html```<br>
 Создам несколько пользователей через swagger и посмотрю в логи<br>
 ![alt text](img/image-lr3.png)<br>
 Notification service получил все ивенты и отписался об этом в консоль.
