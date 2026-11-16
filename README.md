@@ -86,7 +86,8 @@ redis-cli --scan --pattern "*" | while read key; do
         zset)   redis-cli ZRANGE "$key" 0 -1 WITHSCORES;;
     esac
 done
-```<br>
+```
+<br>
 
 # Инструкция Часть2
 Для запуска user-service необходимо собрать весь проект через maven (в корне проекта):<br>
